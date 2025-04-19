@@ -2,6 +2,7 @@ import React from 'react';
 import useInput from '../hooks/useInput';
 import { useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import Button from './Button';
 
 function ThreadInput({ onCreate }) {
   const [title, onTitleChange, setTitle] = useInput('');
@@ -49,10 +50,9 @@ function ThreadInput({ onCreate }) {
         onChange={onBodyChange}
         required
       ></textarea>
-
-      <button type="submit" className="form-button">
+      <Button type="submit" variant="secondary">
         Buat Thread
-      </button>
+      </Button>
     </form>
   );
 }
