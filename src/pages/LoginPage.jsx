@@ -19,7 +19,7 @@ function LoginPage() {
   return (
     <div className="auth-page">
       <div className="auth-card">
-        <h2>Login Here</h2>
+        <h2>Login, And Make Thread!</h2>
         <LoginInput onLogin={handleLogin} />
         <p>
           Don&apos;t have an account? <Link to="/register">Register here</Link>
