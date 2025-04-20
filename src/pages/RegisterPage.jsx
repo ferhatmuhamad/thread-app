@@ -17,7 +17,7 @@ function RegisterPage() {
   return (
     <div className="auth-page">
       <div className="auth-card">
-        <h2>Register Here</h2>
+        <h2>Register Now</h2>
         <RegisterInput onRegister={handleRegister} />
         <p>
           Don&apos;t have an account? <Link to="/login">Login here</Link>
