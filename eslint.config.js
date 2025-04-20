@@ -16,6 +16,6 @@ export default defineConfig([
     languageOptions: { globals: globals.browser },
   },
   pluginReact.configs.flat.recommended,
-  pluginCypress.configs.flat,
+  pluginCypress.configs.recommended,
   daStyle,
 ]);
